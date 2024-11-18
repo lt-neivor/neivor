@@ -27,7 +27,7 @@ if($blog->have_posts()):
                                 <div class="body-card">
                                     <h4 class="post-name"><?= the_title($blog->ID); ?></h4>
                                     <p class="short-description"><?= get_field('short_description', $blog->ID); ?></p>
-                                    <a href="<?= get_permalink($blog->ID); ?>" class="cta-card">
+                                    <a href="<?= get_field('hubspot_link', $blog->ID); ?>" class="cta-card" target="_blank">
                                         <span><?php if(get_bloginfo("language") == "en-US"): ?>See more<?php else: ?>Ver más<?php endif; ?></span>
                                         <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M8.71875 14.0484L12.1722 10.595L8.71875 7.1416" stroke="#1A1728" stroke-width="1.88368" stroke-linecap="round" stroke-linejoin="round"/>
