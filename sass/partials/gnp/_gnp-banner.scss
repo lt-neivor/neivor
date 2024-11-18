@@ -3,6 +3,9 @@
     position: relative;
     height: auto;
     min-height: 100vh;
+    @media(min-width:1500px){
+        min-height: 78vh;
+    }
     .svg-full-width{
         position: absolute;
         bottom: 2%;
@@ -19,8 +22,8 @@
         left: 0;
         top: 0;
         @media(min-width:1500px){
-            height: 38vw;
-            object-position: bottom;
+            height:100%;
+            object-position: center;
         }
     }
     .background-movil{

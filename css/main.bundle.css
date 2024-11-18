@@ -2331,6 +2331,11 @@ section#footer-blue {
   height: auto;
   min-height: 100vh;
 }
+@media (min-width: 1500px) {
+  .gnp-banner-partial-3bdd98 {
+    min-height: 78vh;
+  }
+}
 .gnp-banner-partial-3bdd98 .svg-full-width {
   position: absolute;
   bottom: 2%;
@@ -2349,8 +2354,8 @@ section#footer-blue {
 }
 @media (min-width: 1500px) {
   .gnp-banner-partial-3bdd98 .background-desktop {
-    height: 38vw;
-    object-position: bottom;
+    height: 100%;
+    object-position: center;
   }
 }
 .gnp-banner-partial-3bdd98 .background-movil {
@@ -5162,7 +5167,7 @@ section#footer-blue {
 }
 @media (min-width: 1500px) {
   .generic-banner-partial-ec8c2e {
-    min-height: 90vh;
+    min-height: auto;
   }
 }
 .generic-banner-partial-ec8c2e .svg {
@@ -5353,7 +5358,7 @@ section#footer-blue {
 .generic-banner-partial-ec8c2e .nav-contain .row li a span {
   color: #637281;
   text-align: center;
-  font-size: 16px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 600;
   line-height: 150%;
@@ -6000,11 +6005,11 @@ section#footer-blue {
 }
 
 #financial-services-template-c8ceb6 .generic-banner-partial-ec8c2e {
-  min-height: 68vh !important;
+  min-height: auto !important;
   overflow: hidden;
 }
 #financial-services-template-c8ceb6 .generic-banner-partial-ec8c2e .background-desktop {
-  height: 100vh !important;
+  height: auto !important;
   object-position: bottom;
   left: -14px;
   width: 102%;
