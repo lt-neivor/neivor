@@ -1,0 +1,97 @@
+.banner-partial-4607af {
+    position: relative;
+    min-height: 95vh;
+    height: auto;
+    @media(min-width:1500px){
+        max-height: 73vh;
+        min-height: auto;
+        overflow: hidden;
+    }
+    svg{
+        position: absolute;
+        bottom: 2%;
+        left: 2%;
+        transform: translateX(-2%);
+        z-index: 1;
+    }
+    .banner-slide{
+        opacity: 0;
+        transition: 1s;
+        .owl-item{
+            .item{
+                height: auto; 
+                .background-desktop{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                    transition: 1s;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    @media(min-width:1500px){
+                        height: 100%;
+                    }
+                }
+                .background-movil{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: top;
+                    display: none;
+                    transition: 1s;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                }
+                .row{
+                    position: relative;
+                    z-index: 1;
+                    padding: 8rem 0 4rem 0;
+                    .text-content{
+                        .description{
+                            color: #FFF;
+                            font-size: 32px;
+                            font-style: normal;
+                            font-weight: 300;
+                            line-height: 150%;
+                            strong{
+                                font-weight: 700;
+                            }
+                            @media(max-width:500px){
+                                font-size: 18px;
+                            }
+                            .big-text{
+                                color: #FFF;
+                                font-size: 40px;
+                                font-weight: 400;
+                                font-style: normal;
+                                line-height: 150%;
+                                letter-spacing: 0.1px;
+                                strong{
+                                    font-weight: 700;
+                                }
+                                @media(max-width:500px){
+                                    font-size: 30px;
+                                }
+                            }
+                        }
+                    }
+                }
+                @media(max-width:768px){
+                    .background-desktop{
+                        display: none;
+                    }
+                    .background-movil{
+                        display: block;
+                    }
+                }
+            }
+        }
+        .owl-item.active{
+            .background-desktop, .background-movil{
+                opacity: 1;
+            }
+        }
+    }
+}

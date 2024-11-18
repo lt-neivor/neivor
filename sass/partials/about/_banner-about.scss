@@ -1,0 +1,112 @@
+.banner-about-partial-7b9ae8 {
+    position: relative;
+    min-height: 100vh;
+    height: auto;
+    padding: 8rem 1rem 4rem 1rem;
+    background: $white;
+    @media(min-width:1500px){
+        max-height: 100vh;
+        min-height: 80vh;
+    }
+    svg{
+        position: absolute;
+        bottom: 2%;
+        left: 2%;
+        transform: translateX(-2%);
+        z-index: 1;
+    }
+    .background-desktop{
+        width: 100%;
+        height: 53vw;
+        object-fit: cover;
+        object-position: center;
+        transition: 1s;
+        position: absolute;
+        left: 0;
+        top: 0;
+        @media(min-width:1500px){
+            height: 100%;
+        }
+    }
+    .background-movil{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+        display: none;
+        transition: 1s;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .row{
+        position: relative;
+        z-index: 1;
+        .text-content{
+            .description{
+                color: #FFF;
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 150%;
+                max-width: 540px;
+                strong{
+                    font-weight: 700;
+                }
+                @media(max-width:500px){
+                    font-size: 16px;
+                }
+                .big-text{
+                    color: #FFF;
+                    font-size: 40px;
+                    font-weight: 400;
+                    font-style: normal;
+                    line-height: 150%;
+                    letter-spacing: 0.1px;
+                    strong{
+                        font-weight: 700;
+                    }
+                    @media(max-width:500px){
+                        font-size: 32px;
+                    }
+                }
+            }
+        }
+        .image-contain{
+            img{
+                margin: 0 auto;
+                width: 100%;
+                max-width: fit-content;
+            }
+        }
+        .cta{
+            height: 48px;
+            padding: 8px 16px;
+            border-radius: 35px;
+            min-width: 195px;
+            width: fit-content;
+            text-decoration: none;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 150%;
+            letter-spacing: 0.1px;
+            justify-content: center;
+            align-items: center;
+            span{
+                margin: 0 auto;
+            }
+            @media(max-width:768px){
+                margin-bottom: 8px;
+            }
+        }
+    }
+    @media(max-width:768px){
+        .background-desktop{
+            display: none;
+        }
+        .background-movil{
+            display: block;
+        }
+    }
+}
