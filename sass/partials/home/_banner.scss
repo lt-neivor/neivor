@@ -2,6 +2,9 @@
     position: relative;
     min-height: 95vh;
     height: auto;
+    @media(max-width:510px){
+        min-height: 80vh;
+    }
     @media(min-width:1500px){
         max-height: 73vh;
         min-height: auto;
@@ -20,6 +23,7 @@
         .owl-item{
             .item{
                 height: auto; 
+                min-height: 100vh;
                 .background-desktop{
                     width: 100%;
                     height: 100%;
@@ -77,6 +81,9 @@
                             }
                         }
                     }
+                }
+                @media(max-width:510px){
+                    min-height: 80vh;
                 }
                 @media(max-width:768px){
                     .background-desktop{

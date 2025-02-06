@@ -2874,6 +2874,7 @@ section#footer-blue {
   list-style: none;
   padding: none;
   margin: none;
+  justify-content: right;
 }
 .footer-content-partial-7e1adc .social-networks li a {
   width: 47px;
@@ -2906,8 +2907,7 @@ section#footer-blue {
 }
 .footer-content-partial-7e1adc .nav-policies ul {
   display: flex;
-  max-width: 508px;
-  justify-content: space-between;
+  gap: 20px;
   align-items: center;
   flex: 1 0 0;
   list-style: none;
@@ -5709,11 +5709,21 @@ section#footer-blue {
   color: #23375E;
   font-weight: 700;
 }
+@media (max-width: 510px) {
+  .after-banner-section-partial-b30c5f {
+    padding: 4rem 24px;
+  }
+}
 
 .banner-partial-4607af {
   position: relative;
   min-height: 95vh;
   height: auto;
+}
+@media (max-width: 510px) {
+  .banner-partial-4607af {
+    min-height: 80vh;
+  }
 }
 @media (min-width: 1500px) {
   .banner-partial-4607af {
@@ -5735,6 +5745,7 @@ section#footer-blue {
 }
 .banner-partial-4607af .banner-slide .owl-item .item {
   height: auto;
+  min-height: 100vh;
 }
 .banner-partial-4607af .banner-slide .owl-item .item .background-desktop {
   width: 100%;
@@ -5796,6 +5807,11 @@ section#footer-blue {
 @media (max-width: 500px) {
   .banner-partial-4607af .banner-slide .owl-item .item .row .text-content .description .big-text {
     font-size: 30px;
+  }
+}
+@media (max-width: 510px) {
+  .banner-partial-4607af .banner-slide .owl-item .item {
+    min-height: 80vh;
   }
 }
 @media (max-width: 768px) {

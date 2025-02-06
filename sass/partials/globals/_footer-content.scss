@@ -24,6 +24,7 @@
         list-style: none;
         padding: none;
         margin: none;
+        justify-content: right;
         li{
             a{
                 width: 47px;
@@ -59,8 +60,7 @@
     .nav-policies{
         ul{
             display: flex;
-            max-width: 508px;
-            justify-content: space-between;
+            gap: 20px;
             align-items: center;
             flex: 1 0 0;
             list-style: none;
