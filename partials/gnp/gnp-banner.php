@@ -59,5 +59,16 @@ $nav = $banner['nav'];
         </linearGradient>
         </defs>
     </svg>
+    <script>
+        $(()=>{
+            var cambio = false;
+            $('.nav-card-contain ul li a').each(function(index) {
+                if(this.href.trim() == window.location){
+                    $(this).addClass("active");
+                    cambio = true;
+                }
+            });
+        });
+    </script>
 </section>
                     

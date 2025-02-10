@@ -63,6 +63,27 @@
                     "parent_repeater": "field_66ea34484b68e"
                 },
                 {
+                    "key": "field_67a9f6824f7a3",
+                    "label": "nav max width",
+                    "name": "nav_max_width",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_66ea34484b68e"
+                },
+                {
                     "key": "field_66ea35b04b690",
                     "label": "sub menu",
                     "name": "sub_menu",
@@ -241,5 +262,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1731344438
+    "modified": 1739191979
 }

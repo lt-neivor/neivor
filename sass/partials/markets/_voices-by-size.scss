@@ -114,7 +114,7 @@
         .body-tab{
             background: #ffffff;
             .body-item{
-                display: none;
+                display: flex;
                 border-radius: 12px;
                 background: #FFF;
                 overflow: hidden;
@@ -171,8 +171,8 @@
                     }
                 }
             }
-            .body-item.active{
-                display: flex;
+            .owl-dots{
+                display: none;
             }
         }
         @media(max-width: 768px){

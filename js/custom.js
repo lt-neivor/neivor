@@ -1,11 +1,11 @@
 $('#tabs-voices-by-size').on('click', '.tab-item', function(e){
     var this_active = $(this).attr('href');
     $('#tabs-voices-by-size ul li').removeClass('active');
-    $('.body-item').removeClass('active');
     $(this).parent().addClass('active');
-    $('.this-'+this_active).addClass('active');
+    $('#slide-desktop').trigger('to.owl.carousel', this_active);
     e.preventDefault();
 });
+
 /*============= FAQs =============*/
 var acc = $('.this-faq > .question');
 var i;

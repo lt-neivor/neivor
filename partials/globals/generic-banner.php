@@ -107,6 +107,17 @@ if(get_field('custom_style_image_desktop') === true):
             </ul>
         </div>
     </div>
+    <script>
+        $(()=>{
+            var cambio = false;
+            $('.nav-contain  ul li a').each(function(index) {
+                if(this.href.trim() == window.location){
+                    $(this).addClass("active");
+                    cambio = true;
+                }
+            });
+        });
+    </script>
     <?php endif; ?>
 </section>
                     

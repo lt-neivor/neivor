@@ -218,6 +218,23 @@
                         }
                     }
                 }
+                a.active{
+                    background: #0A2540;
+                    .icon.normal{
+                        display: none;
+                    }
+                    .icon.hover{
+                        display: block;
+                    }
+                    span{
+                        color: #ffffff;
+                    }
+                    svg{
+                        path{
+                            stroke: #ffffff;
+                        }
+                    }
+                }
                 @media(max-width:991px){
                     margin-bottom: 16px;
                     padding: 0;

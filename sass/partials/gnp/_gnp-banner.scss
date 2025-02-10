@@ -148,6 +148,21 @@
                                 }
                             }
                         }
+                        a.active{
+                            background: #7D65FE;
+                            .hover{
+                                display: none;
+                            }
+                            .normal{
+                                display: none;
+                            }
+                            .hover{
+                                display: block;
+                            }
+                            span{
+                                color: $white;
+                            }
+                        }
                     }
                 }
             }
