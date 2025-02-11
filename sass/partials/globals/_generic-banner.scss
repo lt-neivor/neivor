@@ -17,8 +17,6 @@
     .background-desktop{
         width: 100%;
         height: 53vw;
-        object-fit: cover;
-        object-position: center;
         transition: 1s;
         position: absolute;
         left: 0;
@@ -39,8 +37,7 @@
         top: 0;
     }
     .banner{
-        padding: 0 24px;
-        min-height: 59vh;
+        min-height: 24rem;
         .row{
             position: relative;
             z-index: 1;
