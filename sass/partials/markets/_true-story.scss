@@ -121,7 +121,13 @@
                         font-weight: 500;
                         line-height: 150%;
                         letter-spacing: 0.07px;
+                        transition: .4s;
                     }
+                    &:hover{
+                        background: #000000;
+                        color: #FFF !important;
+                    }
+                  
                 }
             }
         }
