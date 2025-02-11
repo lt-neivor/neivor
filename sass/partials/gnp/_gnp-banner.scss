@@ -8,23 +8,15 @@
     }
     .svg-full-width{
         position: absolute;
-        bottom: 2%;
-        left: 0;
-        transform: translateY(12%);
+        bottom: -15%;
     }
     .background-desktop{
         width: 100%;
-        height: 53vw;
-        object-fit: cover;
-        object-position: center;
+        height: 55vw;
         transition: 1s;
         position: absolute;
         left: 0;
         top: 0;
-        @media(min-width:1500px){
-            height:100%;
-            object-position: center;
-        }
     }
     .background-movil{
         width: 100%;
